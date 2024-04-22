@@ -1,0 +1,10 @@
+#slicing tuple
+t1=(1,2,3,4,5,6,7,8,9,10)
+print("tuple is:-",t1)
+print("slice t1 [0:3]:-",t1[0:3])
+print("slice t1[3:6]:-",t1[3:6])
+print("slice is t1[6:9]:-",t1[6:9])
+print("slice of t1[:10]:-",t1[:10])
+print("slice of t1[-1:]",t1[-1:])
+print("slice of t1[-8:]:-",t1[-8:])
+print("slice of t1[-9:-1:1]:-",t1[-9:-1:1])

@@ -1,0 +1,13 @@
+l1=[2,3,4,7,9,12]
+print("list is:-",l1)
+print("list is in form of l1[0:3]:-",l1[0:3])
+print("list is in form of l1[0:]:-",l1[0:])
+print("list is in form of l1[ :5]:-",l1[ :5])
+print("list is in form of l1[3:33]:-",l1[3:33])
+print("list is in form of [-7: ]:-",l1[-7: ])
+print("list is in form of[ :-1]:-",l1[ :-1])
+print("list is in form of [2:6:2]:-",l1[2:6:2])
+print("list is in form of [-7:-1:2]:-",l1[-7:-1:2])
+print("list is in form of [-7:2]:-",l1[-7:2])
+print("list is in form of [-1: :-2]:-",l1[-1: :-2])
+print("list is in form of [0:0]:-",l1[0:0])

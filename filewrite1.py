@@ -1,0 +1,10 @@
+count=int(input("how many student are there in the class"))
+f=open("marks.dat","w")
+for i in range(count):
+	print("enter details for student",i+1,"below")
+	rollno=int(input("enter the rollno:-"))
+	name=input("enter then name:-")
+	marks=float(input("enter marks:-"))
+	rec=(str(rollno)+","+name+","+str(marks)+"\n")
+	f.write(rec)
+f.close()
